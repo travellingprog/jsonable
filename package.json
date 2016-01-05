@@ -1,6 +1,6 @@
 {
   "name": "jsonable",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Composable json via javascript",
   "main": "dist/index.js",
   "author": "",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com:ericwooley/jsonable.git"
+    "url": "https://github.com/travellingprog/jsonable.git"
   },
   "scripts": {
     "test": "istanbul cover _mocha -- --compilers js:babel-core/register --recursive tests",
@@ -17,7 +17,7 @@
     "watch": "nodemon --watch src/ --watch tests/ --exec \"npm run test\"",
     "prepublish": "npm run build"
   },
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "minimist": "^1.2.0",
     "mkdirp": "^0.5.1",
