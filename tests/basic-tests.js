@@ -10,7 +10,7 @@ describe('Basic Functionality', () => {
   })
   it('should convert a basic POJO and write it to disk', () => {
     const out = 'dist/tests/out-files/basic-pojo.json'
-    const entry = 'dist/tests/files/basic-pojo.json.js'
+    const entry = 'tests/files/basic-pojo.json.js'
     jsonjs({
       entry,
       out
@@ -20,7 +20,7 @@ describe('Basic Functionality', () => {
   })
   it('should handle internal requires properly', () => {
     const out = 'dist/tests/out-files/require-test.json'
-    const entry = 'dist/tests/files/json-include.json.js'
+    const entry = 'tests/files/json-include.json.js'
 
     jsonjs({
       entry,
